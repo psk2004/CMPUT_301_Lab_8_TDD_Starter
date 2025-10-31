@@ -1,5 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
+    // Apply the plugin by its ID. The version is managed in the root build file.
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
