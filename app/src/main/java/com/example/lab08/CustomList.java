@@ -1,21 +1,17 @@
 package com.example.lab08;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class CustomList {
-    private List<City> cities;
-
-    public CustomList() {
-        this.cities = new ArrayList<>();
+public class CustomListTest {
+    @Test
+    public void testHasCity() {
+        CustomList list = new CustomList();
+        City calgary = new City("Calgary", "AB");
+        list.addCity(calgary);
+// This will fail initially because hasCity() doesn't
+        exist
+        assertTrue(list.hasCity(calgary));
     }
 
-    public void addCity(City city) {
-        cities.add(city);
-    }
-
-    
-
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
 }
