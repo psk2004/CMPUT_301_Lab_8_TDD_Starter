@@ -1,5 +1,5 @@
 // In your TOP-LEVEL build.gradle.kts (e.g., /Lab08/build.gradle.kts)
-
+//test comment
 // The 'plugins' block is the modern, correct way to apply plugins.
 plugins {
     // Apply the Android Application plugin and specify its version

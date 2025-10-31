@@ -1,3 +1,5 @@
+//test comment
+
 plugins {
     // Apply the plugin by its ID. The version is managed in the root build file.
     id("com.android.application")
