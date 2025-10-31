@@ -10,6 +10,7 @@ public class CustomListTest {
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
 // This will fail initially because hasCity() doesn't exist
+        //testComment
         assertTrue(list.hasCity(calgary));
     }
 
